@@ -1,0 +1,39 @@
+
+main{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 0px;
+    justify-content: center;
+}
+
+app-square{
+    display: flex;
+    justify-content: center;
+    border: 1px rgb(224, 116, 230) solid;
+    height: 100px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    width: 16.365%;
+    height: 5%;
+    font-size: 1em !important;
+    background-color:rgb(183, 40, 205);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #d67acf; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    text-align: center;
+  }
+  
